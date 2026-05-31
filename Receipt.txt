@@ -1,0 +1,69 @@
+========== RECEIPT ==========
+Wonton x1   Rs.675
+Total Bill: Rs.675
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Wonton x100   Rs.67500
+Total Bill: Rs.67500
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Total Bill: Rs.0
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Haleem x1   Rs.250
+Wonton x1   Rs.675
+Total Bill: Rs.925
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Biryani x2   Rs.300
+Total Bill: Rs.300
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Total Bill: Rs.0
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Total Bill: Rs.0
+Customer: Haider
+Address: Chungi amar sidhu lahore
+-----------------------------
+========== RECEIPT ==========
+Biryani x2   Rs.300
+Total Bill: Rs.300
+Customer: ali123
+Address: House 5 lahore
+-----------------------------
+========== RECEIPT ==========
+Total Bill: Rs.0
+Customer: Test
+Address: House
+-----------------------------
+========== RECEIPT ==========
+Wonton x1   Rs.675
+Total Bill: Rs.675
+Customer: Test1
+Address: Home
+-----------------------------
+========== RECEIPT ==========
+Haleem x1   Rs.250
+Total Bill: Rs.250
+Customer: Test1
+Address: Home
+-----------------------------
+========== RECEIPT ==========
+Biryani x1   Rs.250
+Total Bill: Rs.250
+Customer: Test3
+Address: Hone
+-----------------------------
