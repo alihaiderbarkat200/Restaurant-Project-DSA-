@@ -1,0 +1,34 @@
+name: Restaurant DSA - Catch2 Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install G++
+        run: sudo apt-get install -y g++
+
+      - name: Compile Tests
+        run: g++ -std=c++17 -o run_tests catch2_tests.cpp
+
+      - name: Run Tests
+        run: ./run_tests
+
+      - name: Run Tests with XML Report
+        run: ./run_tests -r junit -o test-results.xml || true
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results
+          path: test-results.xml
