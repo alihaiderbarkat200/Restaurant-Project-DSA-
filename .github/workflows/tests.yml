@@ -12,10 +12,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install G++
-        run: sudo apt-get install -y g++
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y g++
 
       - name: Compile Tests
         run: g++ -std=c++17 -o run_tests catch2_tests.cpp
@@ -24,10 +26,11 @@ jobs:
         run: ./run_tests
 
       - name: Run Tests with XML Report
-        run: ./run_tests -r junit -o test-results.xml || true
+        run: ./run_tests -r junit -o test-results.xml
+        continue-on-error: true
 
       - name: Upload Test Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: test-results
